@@ -1,0 +1,162 @@
+*{
+    font-family: 'Fira Code', monospace;            
+    background: #F8EDEB;
+    color: black;
+    font-size: 15px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 22px;
+    display: block;
+    white-space: nowrap;
+    border-right: 1px solid;
+    width: 28ch;
+
+    animation: typing 8s steps(28),
+    blink .5s infinite;
+    overflow: hidden;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+h2{
+    font-size: 19px;
+}
+h3{
+    margin-top: -7px;
+}
+input, select, button{
+    border-radius: 10px;
+}
+section{
+    display: flex;
+    max-width: 100%;
+    min-height: 440px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.containerA{
+    min-height: 300px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.containerB{
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 420px;
+}
+.container2{
+    width: 1120px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.container2a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1080px;
+    height: 40px
+}
+.container2b{
+    width: 1080px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container2bs{
+    width: 300px;
+    height: 280px;
+
+}
+.container2c{
+    width: 400px;
+    height: 280px;
+}
+.container3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 1540px;
+    height: 100px;
+}
+.container4{
+    width: 1540px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.container5{
+    width: 1540px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+@keyframes typing {
+    from {width: 0}
+}
+
+@keyframes blink {
+    50% {border-color: transparent}
+}
+@media (max-width: 780px){
+    section{
+        flex-direction: column;
+    }
+    .container2{
+        width: 400px;
+        height: 800px;
+    }
+    .container2a{
+        width: 370px;
+    }
+    .container2b{
+        width: 370px;
+        height: 750px;
+        flex-direction: column;
+    }
+    .container2bs{
+        width: 330px;
+        height: 210px;
+    }
+    .container2c{
+        width: 330px;
+        height: 310px;
+    }
+    .containerA{
+        height: 400px;
+    }
+    .containerB{
+        height: 550px;
+    }
+    .container3{
+        width: 400px;
+        height: 80px;
+    }
+    .container4{
+        width: 400px;
+        height: 300px;
+    }
+    .container5{
+        width: 400px;
+        height: 465px;
+        text-align: center;
+    }
+}

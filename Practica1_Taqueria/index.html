@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./LogoIcono.png" type="image/x-icon">
+    <title>TaCodeando</title>
+</head>
+<body>
+    <section>
+        <div class="container1">
+            <header>
+                <h1>TaCodeando desde el 2021 :D</h1>
+            </header>
+            <img src="./Logo.png" alt="TaCódigo" width="355px">
+        </div>
+        <div class="container2">
+            <div class="container2a"><h2>Menu</h2></div>
+            <div class="container2b">
+                <div class="container2bs">
+                    <h3>Tacos Grandes</h3>
+                    <p>Todos incluyen verdura y nopales</p>
+                    <ul>
+                        <li>Bistec...................$30</li>
+                        <li>Chuleta.................$30</li>
+                        <li>Chorizo.................$30</li>
+                        <li>Pastor...................$30</li>
+                        <li>Campechano........$30</li>
+                    </ul></div>
+                <div class="container2bs">
+                    <h3>Tacos Pequeños</h3>
+                    <p>Con cilantro y cebolla</p>
+                    <ul>
+                        <li>Bistec....................$15</li>
+                        <li>Chuleta.................$15</li>
+                        <li>Chorizo.................$15</li>
+                        <li>Pastor...................$15</li>
+                        <li>Campechano........$15</li>
+                    </ul>
+                </div>
+                <div class="container2c">
+                    <h3>Especiales</h3>
+                    <p>Haz tu combo con un refresco por $10 más</p>
+                    <dl>
+                        <dt>Gringa...............$45</dt>
+                        <dd>-Tortilla de harina con carne de res y queso</dd>
+                        <dt>José José..........$45</dt>
+                        <dd>-Tortilla de maíz con carne de res marinada en alcohol</dd>
+                        <dt>Gobernador........$45</dt>
+                        <dd>-Tortilla de maíz con camarón y queso</dd>
+                        <dt>Oriental..............$45</dt>
+                        <dd>-Tortilla de harina con carne de cordero</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="containerA">
+        <div class="container3">
+            <h2>Ubicacion</h2>
+            <h3>Sucursales</h3>
+        </div>
+        <div class="container4">
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Ubicación</th>
+                    <th>Horarios</th>
+                </tr>
+                <tr>
+                    <td>Norte</td>
+                    <td><a href="https://goo.gl/maps/BfzW89BaDHmLAmpr5" target="_blank">Eje 3 Nte. Camarones 396, Claveria, Azcapotzalco, 02080 Ciudad de México, CDMX</td>
+                    <td>00:06 - 22:00</td>
+                </tr>
+                <tr>
+                    <td>Centro</td>
+                    <td><a href="https://goo.gl/maps/qhgv841QuQrGPRDC8" target="_blank">Av. 5 de Mayo 46, Centro Histórico de la Cdad. de México, Cuauhtémoc 06000, CDMX</td>
+                    <td>00:06 - 22:00</td>
+                </tr>
+                <tr>
+                    <td>Sur</td>
+                    <td><a href="https://goo.gl/maps/ygN8ZoFXJG3Tqi248" target="_blank">Av. División del Nte. 2880, Parque San Andrés, Coyoacán, 04040 Ciudad de México, CDMX</td>
+                    <td>00:06 - 22:00</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="containerB">
+        <div class="container3">
+            <h2>Pedidos</h2>
+            <h3>Haz tu pedido aqui</h3>
+        </div>
+        <div class="container5">
+            <form action="">
+                <p>¿De que taquería quieres?</p>
+                <select>
+                    <option value="Norte">Norte</option>
+                    <option value="Centro">Centro</option>
+                    <option value="Sur">Sur</option>
+                </select>
+                
+                <p>¿De qué tacos quieres?</p>
+                <input type="checkbox" id="Bistec" name="Bistec" value="Bistec">
+                <label for="Bistec">Bistec</label>
+                <input type="number" id="BistecNumber" name="BistecNumber" placeholder="¿Cuántos?">
+                <br>
+                <input type="checkbox" id="Chuleta" name="Chuleta" value="Chuleta">
+                <label for="Chuleta">Chuleta</label>
+                <input type="number" id="ChuletaNumber" name="ChuletaNumber" placeholder="¿Cuántos?">
+                <br>
+                <input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">
+                <label for="Chorizo">Chorizo</label>
+                <input type="number" id="ChorizoNumber" name="ChorizoNumber" placeholder="¿Cuántos?">
+                <br>
+                <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+                <label for="Pastor">Pastor</label>
+                <input type="number" id="PastorNumber" name="PastorNumber" placeholder="¿Cuántos?">
+                <br>
+                <input type="checkbox" id="Campechano" name="Campechano" value="Campechano">
+                <label for="Campechano">Campechano</label>
+                <input type="number" id="CampechanoNumber" name="CampechanoNumber" placeholder="¿Cuántos?">
+                <br><br>
+
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
+                
+                <br><br>
+
+                <label for="Nombre">Teléfono:</label>
+                <input type="tel" id="Telefono" name="Telefono" placeholder="¿Tú teléfono?">
+                
+                <br><br>
+
+                <label for="Direccion">Dirección:</label>
+                <input type="text" id="Direccion" name="Direccion" placeholder="¿A dónde lo mandamos?">
+
+                <br><br>
+
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </div>
+    </section>
+    <br><br>
+    <footer><img src="LogoIcono.png" width="30px"> ©Derechos Reservados 2022 
+        <a href="https://github.com/CesarCarmona30"><img src="https://www.pngarts.com/files/8/Black-Github-Logo-PNG-Image-Background.png" width="30px"></a> 
+        <a href="https://twitter.com/CesarCarmona30"><img src="https://clipart.info/images/ccovers/1534043160twitter-logo-png-black.png" width="25px"></a> 
+        <a href="https://instagram.com/_cesar_carmona_"><img src="https://th.bing.com/th/id/R.3a0f4d07b03e6c655ab19a1ef1431df3?rik=uLcMU7WX%2bFvk8w&riu=http%3a%2f%2fgetdrawings.com%2fvectors%2finstagram-logo-black-vector-16.png&ehk=O%2bk0OoVblJu64SotPt8OxEcd2JhQNOsDNjT9mmA%2bahA%3d&risl=&pid=ImgRaw&r=0" width="28px"></a> 
+        <a href="https://facebook.com/clcg852"><img src="https://www.shareicon.net/data/2016/07/14/607478_facebook_4096x4096.png" width="34px"></a> 
+        <a href="mailto:clcg3007@gmail.com"><img src="https://www.shareicon.net/data/512x512/2015/09/22/644496_email_512x512.png" width="25px"></a> 
+    </footer>
+</body>
+</html>
