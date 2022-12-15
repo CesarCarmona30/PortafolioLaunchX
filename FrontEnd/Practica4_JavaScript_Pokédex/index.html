@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoKeDeX</title>
+    <link href="./index.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/pokeball.png" type="image/x-icon">
+</head>
+<body>
+    <section class="container" id="title">
+        <img src="./images/title.png" height="60px">
+    </section>
+    <!--Contenedor para la PoKeDeX-->
+    <section class="container" id="container">
+        
+        <!--Parte izquierda PoKeDeX-->
+        <div class="pokedexLeft">
+            <!-- Contenedor izq 1 PoKeDeX:
+                Para el circulo de la esquina 
+                superior izquierda, adentro
+                el circulo pequeño -->
+            <div class="containerLeft1">
+                <div class="circleLeftTop">
+                    <div class="circleLeftTopChild"></div>
+                </div>
+            </div>
+            <!-- Contenedor izq 2 PoKeDeX:
+                Para el medio circulo  de en 
+                medio, adentro otro medio circulo -->
+            <div class="containerLeft2">
+                <div class="halfCircleLeft">
+                    <div class="halfCircleLeftChild"></div>
+                </div>
+            </div>
+            <!-- Contenedor izq 3 PoKeDeX:
+                Para el circulo de la esquina 
+                inferior izquierda, adentro
+                el circulo pequeño -->
+            <div class="containerLeft3">
+                <div class="circleLeftBottom">
+                    <div class="circleLeftBottomChild"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Contenido PoKeDeX-->
+        <div class="pokedexContent" id="pokedexContent">
+
+            <div class="containerContent" id="containerContent">
+                <div class="screen" id="screen">
+                    <img src="https://media1.giphy.com/media/Bve8CDLZCFuZa/giphy.gif?cid=790b76112aff4378fe3dd5f30a64a598d40bcdf68b38ca5f&rid=giphy.gif&ct=s" alt="pokemon" id="pokeImg">
+                </div>
+
+                <div class="containerSearch">
+                    <input type="text" id="pokeName" placeholder="Search by name or ID" name="pokeName">
+                    <button onclick="fetchPokemon()" id="searchPokemon">
+                        <img src="./images/pokeball.png" id="pokeIcon">
+                    </button>
+                </div>
+                
+                <div class="namePokemon" id="namePokemon"></div>
+                <div class="types" id="types">
+                    <h5>Types</h5>
+                    <p></p>
+                </div>
+                <div class="abilities" id="abilities">
+                    <h5>Abilities</h5>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="containerPokeButton" id="containerPokeButton">
+                <button class="pokeButton" id="pokeButton">
+                    <div class="pokeButtonCircle1" id="pokeButtonCircle1">
+                        <div class="pokeButtonCircle2">
+                            <div class="pokeButtonCircle3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pokeButtonCircle4">
+                        <div class="linea"></div>
+                        <div class="linea2"></div>
+                        <div class="pokeButtonCircle5">
+                            <div class="pokeButtonCircle6"></div>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <!--Parte Derecha PoKeDeX-->
+        <div class="pokedexRight">
+            <!-- Contenedor Dcha 1 PoKeDeX:
+                Para el circulo de la esquina 
+                superior derecha, adentro
+                el circulo pequeño -->
+            <div class="containerRight1">
+                <div class="circleRightTop">
+                    <div class="circleRightTopChild"></div>
+                </div>
+            </div>
+            <!-- Contenedor Dcha 2 PoKeDeX:
+                Para el medio circulo  de en 
+                medio, adentro otro medio circulo -->
+            <div class="containerRight2">
+                <div class="halfCircleRight">
+                    <div class="halfCircleRightChild"></div>
+                </div>
+            </div>
+            <!-- Contenedor Dcha 3 PoKeDeX:
+                Para el circulo de la esquina 
+                inferior derecha, adentro
+                el circulo pequeño -->
+            <div class="containerRight3">
+                <div class="circleRightBottom">
+                    <div class="circleRightBottomChild"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
